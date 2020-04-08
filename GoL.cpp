@@ -5,14 +5,8 @@
 /*	A code designed to solve problem from 
 	exercise 5 2016 matura exam (old) */
 
-
-int main()
+void gamePreview()
 {
-	writeBegFromFile();
-	//Uncomment to run. Only one at a time.
-	//part1();
-	//part2();
-	//part3();
 	while (true)
 	{
 		nextIteration();
@@ -21,5 +15,14 @@ int main()
 		Sleep(750);
 		system("cls");
 	}
+}
+
+int main()
+{
+	writeBegFromFile();
+	//Uncomment to run. Only one at a time.
+	//part1();
+	//part2();
+	//part3();
 	return 0;
 }
